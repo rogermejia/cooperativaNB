@@ -42,6 +42,7 @@ public class CuentasMb {
 	}
 	
 	public void verCuentas(Persona per) {
+            System.out.println("5454654564");
 		cuentas = cuDao.getCuentas(per.getClienteList().get(0));
 	}
 	
